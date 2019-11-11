@@ -23,7 +23,8 @@ django.jQuery(function($) {
           $(this)
             .find("td, th")
             .each(function() {
-              $(this).css("width", $(this).width());
+              //$(this).css("width", $(this).width());
+              $(this).css("width", "auto");
             });
         })
         .mouseup(function() {
