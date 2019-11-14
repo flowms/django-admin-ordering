@@ -58,6 +58,7 @@
   input {
   visibility: hidden;
   pointer-events: none;
+  width: 0px;
 }
 
 .inline-related .admin-ordering-field {
